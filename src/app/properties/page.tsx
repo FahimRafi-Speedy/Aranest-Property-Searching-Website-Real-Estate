@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import PropertiesPageClient from "./PropertiesPageClient";
+import { Suspense } from "react";
 
 export const metadata: Metadata = {
   title: "Properties | Aranest",
@@ -7,5 +8,9 @@ export const metadata: Metadata = {
 };
 
 export default function PropertiesPage() {
-  return <PropertiesPageClient />;
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <PropertiesPageClient />
+    </Suspense>
+  );
 }

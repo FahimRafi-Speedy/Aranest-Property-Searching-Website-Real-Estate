@@ -1,40 +1,127 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏠 Aranest – Property Searching Website
 
-## Getting Started
+A modern and responsive **Real Estate Property Searching Platform** built using **Next.js**.
+This project allows users to explore, search, and view properties with an intuitive UI and map-based experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🚀 Features
+
+* 🔍 Advanced property search system
+* 📍 Location-based property browsing
+* 🗺️ Google Maps integration (for real-time location view)
+* 🏘️ Property listing with images and details
+* 👨‍💼 Agent showcase section
+* 📱 Fully responsive design (mobile, tablet, desktop)
+* ⚡ Fast performance using Next.js
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js, React
+* **Styling:** Tailwind CSS
+* **Language:** TypeScript / JavaScript
+* **Tools:** ESLint, PostCSS
+* **Assets:** Custom images & icons
+
+---
+
+## 📂 Project Structure
+
+```
+/public        → Images, icons, static assets  
+/components    → Reusable UI components  
+/app বা /pages → Main application routes  
+/styles        → Global styles  
+/utils         → Helper functions  
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ⚙️ Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Clone the repository:
 
-## Learn More
+```
+git clone https://github.com/FahimRafi-Speedy/Aranest-Property-Searching-Website-Real-Estate.git
+cd Aranest-Property-Searching-Website-Real-Estate
+```
 
-To learn more about Next.js, take a look at the following resources:
+Install dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Run the development server:
 
-## Deploy on Vercel
+```
+npm run dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Open in browser:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Aranest-Property-Searching-Website-Real-Estate
->>>>>>> 382997e91b1d129a9ff9ae0366c954b94c16bdb8
+```
+http://localhost:3000
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env.local` file and add:
+
+```
+NEXT_PUBLIC_GOOGLE_MAPS_API_KEY=your_api_key_here
+```
+
+---
+
+## 🌐 Live Demo
+
+👉 (Add your Vercel / Netlify deployed link here)
+
+---
+
+## 📸 Screenshots
+
+(Add screenshots of your project UI here for better presentation)
+
+---
+
+## 💡 Future Improvements
+
+* 🔐 User authentication system
+* ❤️ Wishlist / save property feature
+* 💬 Chat system with agents
+* 🧠 AI-based property recommendations
+
+---
+
+## 👨‍💻 Author
+
+**Fahim Rafi**
+
+* GitHub: https://github.com/FahimRafi-Speedy
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+## 📌 Project Overview (For Interview)
+
+This project is a **real estate property searching platform** where users can:
+
+* Search properties based on location
+* View properties on a map
+* Explore property details visually
+* Experience fast and responsive UI
+
+Built using **Next.js for performance and SEO optimization**, this project demonstrates real-world frontend development skills.
+
+---
